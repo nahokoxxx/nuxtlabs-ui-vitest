@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxthq/ui": "^2.7.0",
+    "@types/node": "^18.17.1",
+    "@vue/test-utils": "^2.4.1",
+    "nuxt": "^3.6.5",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vitest": "^0.34.1"
+  }
+}
